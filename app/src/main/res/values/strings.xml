@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BLine</string>
+
+    <string name="title">B-Line</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="new_job_text"> New Job </string>
+    <string name="new_exception_text"> New Exception </string>
+
+    <string name="new_job_button"> New\n Blackout </string>
+    <string name="new_exception_button"> New Exception </string>
+    <string name="menu_option_exit_text">Exit</string>
+</resources>
