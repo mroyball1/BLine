@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 /**
  * Created by royball on 7/21/2015.
@@ -34,10 +35,9 @@ public class ExceptionList extends FragmentActivity {
 
         //phones.close();
 
-        ListAdapter theAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listTest);
+        ListAdapter theAdapter = new ExceptionAdapter(this, listTest);
         ListView theListView = (ListView) findViewById(R.id.exception_list);
         theListView.setAdapter(theAdapter);
-
 
     }
 
